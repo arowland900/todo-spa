@@ -20,7 +20,7 @@ apiClient({ method: 'get', url: '/api/todos' }).then((apiResponse) => {
                     
                         <button type="button" class="btn btn-light completed col-3">${t.completed ? "completed" : "incomplete"}</button>
                    
-                        <button class="btn btn-outline-dark delete col-3">X</button>
+                        <button class="btn btn-oruutline-dark delete col-3">X</button>
                 </div>  
                 
             </li> 
